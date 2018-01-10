@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
 
+  <!-- Define character set -->
+  <meta charset="UTF-8">
+  
+  <!-- Link to stylesheets -->
   <link rel="stylesheet" type="text/css" href="./reset.css">
   <link rel="stylesheet" type="text/css" href="./style.css">
 
+  <!-- Page title, to appear in Browser Tab -->
   <title>Wireframe</title>
+
 </head>
-<body>
+<body class="dark-bg">
+
   <!-- Header -->
-  <header class="light-background std-padding std-margin">header</header>
+  <header class="light-bg std-pad-mar">
+    <h2>header</h2>
+  </header>
   
   <!-- Nav -->
-  <nav class="light-background std-padding std-margin">nav</nav>
+  <nav class="light-bg std-pad-mar">
+    <h2>nav</h2>
+  </nav>
     
     <!-- Main Content Section -->
-    <section class="light-background">
-      <h1 class="light-background">section</h1>
+    <section class="light-bg content-mar">
+      <h1 class="light-bg">section</h1>
       
       <!-- Nested Content -->
-      <article class="dark-background">article
-        <h2 class="light-background"><strong>h1, h2, h3</strong></h2>
-        <p class="light-background">p</p>
+      <article class="dark-bg">
+        <h2>article</h2>
+        <h3 id="first-nested" class="light-bg nested-pad">
+          <strong>h1, h2, h3</strong>
+        </h3>
+        <p class="light-bg nested-pad">p</p>
       </article>
     </section>
     
     <!-- Sidebar -->
-    <aside class="light-background">aside</aside>
+    <aside class="light-bg content-mar">
+      <h2>aside</h2>
+    </aside>
 
   <!-- Footer -->
-  <footer class="light-background std-padding">footer</footer>
+  <footer class="light-bg std-pad-mar">
+    <h2>footer</h2>
+  </footer>
+
 </body>
 </html>
